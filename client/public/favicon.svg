@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Outer Shield with Deep Gradient -->
+  <path d="M32 4L12 12V28C12 43.2 20.6 54.4 32 59C43.4 54.4 52 43.2 52 28V12L32 4Z" fill="url(#shield_grad)" stroke="#10b981" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Lock Shackle -->
+  <path d="M26 29V23C26 19.6863 28.6863 17 32 17C35.3137 17 38 19.6863 38 23V29" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+  
+  <!-- Padlock Body -->
+  <rect x="22" y="29" width="20" height="16" rx="4" fill="#10b981" stroke="#ffffff" stroke-width="2.5"/>
+  
+  <!-- Keyhole -->
+  <circle cx="32" cy="36" r="2" fill="#064e3b"/>
+  <path d="M32 38V41" stroke="#064e3b" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- High-tech circuit nodes -->
+  <circle cx="20" cy="18" r="1.5" fill="#34d399"/>
+  <circle cx="44" cy="18" r="1.5" fill="#34d399"/>
+  <path d="M20 18H24M44 18H40" stroke="#34d399" stroke-width="1.5" stroke-linecap="round"/>
+
+  <defs>
+    <linearGradient id="shield_grad" x1="12" y1="4" x2="52" y2="59" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="100%" stop-color="#022c22"/>
+    </linearGradient>
+  </defs>
+</svg>
