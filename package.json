@@ -1,0 +1,16 @@
+{
+  "name": "securecrypt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SecureCrypt — Zero-Knowledge View-Once Encrypted Messaging built on MERN Stack",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "start:server": "npm --prefix server start",
+    "build:client": "npm --prefix client run build",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": ["securecrypt", "encryption", "zero-knowledge", "view-once", "e2ee", "mern", "react", "express", "mongodb"],
+  "author": "",
+  "license": "MIT"
+}
